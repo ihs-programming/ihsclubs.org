@@ -1,0 +1,24 @@
+{
+  "name": "ihsclubs.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihs-programming/ihsclubs.org.git"
+  },
+  "author": "Robert Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihs-programming/ihsclubs.org/issues"
+  },
+  "homepage": "https://github.com/ihs-programming/ihsclubs.org#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
