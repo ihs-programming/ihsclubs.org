@@ -1,0 +1,13 @@
+{
+  "title": "Programming Club",
+  "pages": {
+    "index": {
+      "navName": "Home",
+      "title": "Programming Club"
+    },
+    "ipc": {
+      "navName": "IPC",
+      "title": "Interlake Programming Contest"
+    }
+  }
+}

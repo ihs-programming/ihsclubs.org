@@ -1,0 +1,43 @@
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-card w3-left-align w3-large">
+    <a
+      class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo"
+      href="javascript:void(0);"
+      onclick="myFunction()"
+      title="Toggle Navigation Menu"
+      ><i class="fa fa-bars"></i
+    ></a>
+    <% Object.keys(pages).forEach(page => { %>
+      <a href="<%= page %>" class="w3-bar-item w3-button w3-padding-large <%= page === currentPage? "w3-white": "w3-hover-white" %> <%= page === "index"? "": "w3-hide-small" %>"
+        ><%= pages[page].navName %></a
+      >
+    <% }); %>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div
+    id="navDemo"
+    class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
+  >
+    <a href="announcements.html" class="w3-bar-item w3-button w3-padding-large"
+      >Announcements</a
+    >
+    <a
+      href="competition_results.html"
+      class="w3-bar-item w3-button w3-padding-large"
+      >Competition Results</a
+    >
+    <a href="practice_tests.html" class="w3-bar-item w3-button w3-padding-large"
+      >Practice Tests</a
+    >
+    <a
+      href="parent_information.html"
+      class="w3-bar-item w3-button w3-padding-large"
+      >Parent Information</a
+    >
+    <a href="contact_us.html" class="w3-bar-item w3-button w3-padding-large"
+      >Contact Us</a
+    >
+  </div>
+</div>
