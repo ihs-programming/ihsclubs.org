@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "static")));
 
-const validate = str => str.match(/^[0-9a-z]+$/);
+const validate = str => str.match(/^[0-9a-zA-Z-_]+$/);
 
 app.get("/:club", (req, res, next) => {
   const {club} = req.params;
