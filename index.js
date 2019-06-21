@@ -8,8 +8,12 @@ const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "static")));
 
+const validate = str => str.match(/^[0-9a-z]+$/);
+
 app.get("/:club", (req, res, next) => {
-  const {club, page} = req.params;
+  const {club} = req.params;
+  
+  if(!validate(club)) return next();
 
   const configPath = `${dataDir}/${club}.json`;
   if(fs.existsSync(configPath)) {
@@ -22,6 +26,8 @@ app.get("/:club", (req, res, next) => {
 const dataDir = "./data";
 app.get("/:club/:page", (req, res, next) => {
   const {club, page} = req.params;
+  
+  if(!validate(club) || !validate(page)) return next();
 
   const configPath = `${dataDir}/${club}.json`;
   if(fs.existsSync(configPath)) {
