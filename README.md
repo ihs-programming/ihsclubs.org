@@ -60,6 +60,7 @@ Text on the webpage is displayed in a series of panels. Each panel is also repre
 
 ### Images
 A custom object is defined to faciliate displaying of images. 
+
 | Variable  | Meaning |
 | ------------- | ------------- |
 | type  | "icon" or "image"  |
