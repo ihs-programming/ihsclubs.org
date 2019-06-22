@@ -18,9 +18,9 @@ The server runs on a [NodeJS](https://nodejs.org/en/) backend built on [Express]
 The web root `/` contains a listing of all the subpages. Each individual subpage can be found at `/${name}/*` with its homepage located at `/${name}/index`. 
 
 ## Creating New Subpages
-```
-cp -r ./views/programming ./views/${name}
-cp ./data/programming.json ./data/${name}.json
+```bash
+$ cp -r ./views/programming ./views/${name}
+$ cp ./data/programming.json ./data/${name}.json
 ```
 Then modify `./data/${name}.json` as you see fit. 
 
