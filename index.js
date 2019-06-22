@@ -32,15 +32,15 @@ app.get("/:club/:page", (req, res, next) => {
   const configPath = `${dataDir}/${club}.json`;
   if(fs.existsSync(configPath)) {
     const config = require(configPath);
-    config.currentPage = page;
-
     const pagePath = `${club}/pages/${page}`;
 
-    if(Object.keys(config.pages).includes(page)) {
+    const currentPage = config.pages.find(({name}) => name === page);
+    if(currentPage !== undefined) {
+      config.currentPage = currentPage;
       if(fs.existsSync(`./views/${pagePath}.ejs`)) {
         return res.render(pagePath, config);
       } else {
-        return res.render(`${club}/pages/index.ejs`, config);
+        return res.render(`${club}/pages/index`, config);
       }
     }
   }

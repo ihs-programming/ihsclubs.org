@@ -1,9 +1,9 @@
 {
   "theme": "#3f51b5",
   "title": "Programming Club",
-  "description": "Welcome to Interlake Programming Club! We meet once a week after school on Thursdays in the APCS room. Our objective is to practice and build programming skills. We compete in local contests such as MIHS, and host our own programming competition as well.",
-  "pages": {
-    "index": {
+  "pages": [ 
+    {
+      "name": "index",
       "navName": "Home",
       "title": "Programming Club",
       "panels": [
@@ -17,7 +17,8 @@
         }
       ]
     },
-    "ipc": {
+    {
+      "name": "ipc",
       "navName": "IPC",
       "title": "Interlake Programming Contest",
       "panels": [
@@ -40,5 +41,5 @@
 
       ]
     }
-  }
+  ]
 }
