@@ -25,7 +25,7 @@ app.get("/:club", (req, res, next) => {
   
   if(!validate(club)) return next();
 
-  const configPath = `${dataDir}/${club}.json`;
+  const configPath = `${dataPageDir}/${club}.json`;
   if(fs.existsSync(configPath)) {
     res.redirect(`/${req.params.club}/index`);
   }
