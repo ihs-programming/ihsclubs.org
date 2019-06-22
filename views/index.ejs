@@ -61,15 +61,11 @@
   <div class="main">
     <h1 class="title">IHS Clubs</h1>
     <ul class="list">
+      <% pages.forEach(page => { %>
       <li class="list--elem">
-        <a class="list--link" href="./programming">Programming</a>
+        <a class="list--link" href="./<%= page.path %>"><%= page.title %></a>
       </li>
-      <li class="list--elem">
-        <a class="list--link" href="./scioly">Cybersecurity</a>
-      </li>
-      <li class="list--elem">
-        <a class="list--link" href="./scioly">Science Olympiad</a>
-      </li>
+      <% }) %>
     </ul>
   </div>
 
