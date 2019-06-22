@@ -43,12 +43,14 @@ All configuration files are stored in [JSON](https://www.json.org/). In order to
 
 ### Subpage listing
 The subpage listing found at the webroot, `/`, can be configured through `/data/index.json`. 
+
 | Variable  | Meaning |
 | ------------- | ------------- |
 | pages  | The list of pages to display.  |
 
 #### Page Listing
 Each page has two properties. 
+
 | Variable  | Meaning |
 | ------------- | ------------- |
 | title  | The text to display in the list at `/`  |
