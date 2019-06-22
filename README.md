@@ -1,5 +1,5 @@
 # ihsclubs.org
-This is the repository for the <ihsclubs.org> domain. 
+This is the repository for the [ihsclubs.org](ihsclubs.org) domain. 
 
 ## Overview
 The server runs on a [NodeJS](https://nodejs.org/en/) backend built on [Express](https://expressjs.com/). Templating is done through [ejs](https://ejs.co/). The template generator was built with convention over configuration in mind, with sane defaults. However, if desired, everything is highly configurable down to the individual html files. 
