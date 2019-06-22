@@ -36,8 +36,12 @@ app.get("/:club/:page", (req, res, next) => {
 
     const pagePath = `${club}/pages/${page}`;
 
-    if(fs.existsSync(`./views/${pagePath}.ejs`)) {
-      return res.render(pagePath, config);
+    if(Object.keys(config.pages).includes(page)) {
+      if(fs.existsSync(`./views/${pagePath}.ejs`)) {
+        return res.render(pagePath, config);
+      } else {
+        return res.render(`${club}/pages/index.ejs`, config);
+      }
     }
   }
   next();

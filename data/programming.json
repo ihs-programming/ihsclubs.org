@@ -1,0 +1,44 @@
+{
+  "theme": "#3f51b5",
+  "title": "Programming Club",
+  "description": "Welcome to Interlake Programming Club! We meet once a week after school on Thursdays in the APCS room. Our objective is to practice and build programming skills. We compete in local contests such as MIHS, and host our own programming competition as well.",
+  "pages": {
+    "index": {
+      "navName": "Home",
+      "title": "Programming Club",
+      "panels": [
+        {
+          "title": "Welcome to Programming Club",
+          "text": "Welcome to Interlake Programming Club! We meet once a week after school on Thursdays in the APCS room. Our objective is to practice and build programming skills. We compete in local contests such as MIHS, and host our own programming competition as well.",
+          "img": {
+            "type": "icon",
+            "name": "code"
+          }
+        }
+      ]
+    },
+    "ipc": {
+      "navName": "IPC",
+      "title": "Interlake Programming Contest",
+      "panels": [
+        {
+          "title": "What is it?",
+          "text": "IPC or Interlake Programming Contest is an annual competition hosted by Interlake Programming Club. We look forward to seeing you there!",
+          "img": {
+            "type": "icon",
+            "name": "code"
+          }
+        },
+        {
+          "title": "How do I prepare?",
+          "text": "The problems in IPC are modeled off of other popular programming contests such as <a href=https://usaco.org>USACO</a> and <a href=https://codeforces.com>CodeForces</a>. As always, the best way to improve is by practicing old problems. ",
+          "img": {
+            "type": "icon",
+            "name": "users"
+          }
+        }
+
+      ]
+    }
+  }
+}

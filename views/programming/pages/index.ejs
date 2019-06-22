@@ -27,20 +27,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <h1 class="w3-margin w3-jumbo"><%= pages[currentPage].title %></h1>
 </header>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Welcome to <%= title %></h1>
-      <h5 class="w3-padding-32"><%= description %></h5>
-    </div>
+<!-- Panels -->
+<% pages[currentPage].panels.forEach((panel, i) => { %>
+  <div class="w3-row-padding w3-padding-64 w3-container <%= i % 2 === 0? "": "w3-light-grey" %>">
+    <div class="w3-content">
+      <% if(i % 2 === 1) { %>
+        <% include ../partials/img %>
+      <% } %>
 
-    <div class="w3-third w3-center">
-      <i style="font-size: 100px; color: <%= theme %>"class="fa fa-code w3-padding-64"></i>
+      <div class="w3-twothird">
+        <h1><%- panel.title %></h1>
+        <h5 class="w3-padding-32"><%- panel.text %></h5>
+      </div>
+
+      <% if(i % 2 === 0) { %>
+        <% include ../partials/img %>
+      <% } %>
     </div>
   </div>
-</div>
-
+<% }) %>
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
