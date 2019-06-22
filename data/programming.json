@@ -40,6 +40,44 @@
         }
 
       ]
+    },
+    {
+      "name": "resources",
+      "navName": "Resources",
+      "title": "Resources",
+      "panels": [
+        {
+          "title": "Lectures",
+          "text": "All of our lectures are done through Google Slides and can be <a href=https://drive.google.com/open?id=1zfIjpxwaEqkqO2Hfu-ib45_XaV4Abfxy>found on google drive.</a> If you ever miss a day or need to catch up, feel free to look here for the material that you missed.  ",
+          "img": {
+            "type": "icon",
+            "name": "pencil"
+          }
+        },
+        {
+          "title": "Competitive Programming",
+          "text": "There are a wide variety of programming contests, both local and on a national level. <a href=http://usaco.org>USACO</a> is a relatively prestigious contest with four contests spanning the school year. <a href=http://teamscode.com>TeamsCode</a> also hosts many local contests.",
+          "img": {
+            "type": "icon",
+            "name": "list"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "navName": "Contact",
+      "title": "Contact Information",
+      "panels": [
+        {
+          "title": "Email",
+          "text": "<a href=\"mailto: interlakeprogrammingclub@gmail.com\">interlakeprogrammingclub@gmail.com</a>",
+          "img": {
+            "type": "icon",
+            "name": "envelope"
+          }
+        }
+      ]
     }
   ]
 }
