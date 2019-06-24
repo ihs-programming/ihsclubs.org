@@ -3,6 +3,10 @@
     {
       "title": "Programming Club",
       "path": "programming"
+    },
+    {
+      "title": "Cybersecurity",
+      "path": "cysec"
     }
   ]
 }

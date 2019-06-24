@@ -1,0 +1,66 @@
+{
+  "theme": "#3f51b5",
+  "title": "Programming Club",
+  "pages": [ 
+    {
+      "name": "index",
+      "navName": "Home",
+      "title": "Cybersecurity",
+      "panels": [
+        {
+          "title": "Welcome to Cybersecurity & Hacking Club!",
+          "text": "Welcome to Interlake’s Cybersecurity & Hacking Club! We meet every Monday after school from 3:30-4:30 in Room 2713. We cover the basics of computer security, learn skills, and discuss real-world applicability. Skills include decrypting, reverse engineering, exploiting websites, running scripts, and more. We also compete in Capture the Flag competitions either as a whole team or in separate individual teams based on the competition.",
+          "img": {
+            "type": "icon",
+            "name": "code"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ctf",
+      "navName": "CTF",
+      "title": "CTF",
+      "panels": [
+        {
+          "title": "Capture The Flag",
+          "text": "Capture-The-Flag (CTF) competitions are online-based and are filled with challenging problems related to computer security. Participants try to ‘hack’ problems. Every CTF is distinct from one another, but CTFs are usually categorized into 5 main spheres, notably: Cryptography, Forensics, Web Exploitation, Reverse Engineering, and Binary Exploitation. Challenges usually progress from 'Beginner' level to 'Advanced'. Entering CTFs helps you gain problem-solving skills, collaborative skills, and independent thinking-out-of-the-box skills.",
+          "img": {
+            "type": "icon",
+            "name": "code"
+          }
+        }
+      ]
+    },
+    {
+      "name": "resources",
+      "navName": "Resources",
+      "title": "Resources",
+      "panels": [
+        {
+          "title": "Lectures",
+          "text": "All of our lectures are done through Google Slides and can be <a href=https://drive.google.com/open?id=1MKx81v3s4p3PzPV_9O4Qxq8R23NIffFP>found on google drive.</a> If you ever miss a day or need to catch up, feel free to look here for the material that you missed.  ",
+          "img": {
+            "type": "icon",
+            "name": "pencil"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "navName": "Contact",
+      "title": "Contact Information",
+      "panels": [
+        {
+          "title": "Our Team",
+          "text": "Our second-year admin team and lecturers include: Claire Jung, Robert Chen, Neil Gupta, Ian Huang, Ben Lambert, Jessica Ruan, Robert Stevens, Timothy Zhou any order, just did last names<br> You can contact us at: interlakecyber@gmail.com ",
+          "img": {
+            "type": "icon",
+            "name": "envelope"
+          }
+        }
+      ]
+    }
+  ]
+}
