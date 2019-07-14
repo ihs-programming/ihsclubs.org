@@ -1,0 +1,44 @@
+{
+  "theme": "#32ABDE",
+  "title": "Interlake Science Olympiad",
+  "pages": [ 
+    {
+      "name": "index",
+      "navName": "Home",
+      "title": "Interlake Science Olympiad",
+      "panels": [
+        {
+          "title": "Welcome to Interlake Scioly!",
+          "text": "We compete in science events such as Chemistry Lab or Anatomy and Physiology as well as engineering events such as Mousetrap Vehicle.",
+        }
+      ]
+    },
+    {
+      "name": "announcements",
+      "navName": "Announcements",
+      "title": "Announcements",
+      "panels": [
+
+      ]
+    },
+    {
+      "name": "results",
+      "navName": "Competition Results",
+      "title": "Competition Results",
+      "panels": [
+        "title": "Aviation 2019"
+      ]
+    },
+    {
+      "name": "practice_tests",
+      "navName": "Practice Tests",
+      "title": "Practice Tests",
+      "panels": [
+        {
+          "title": "Golden Gate Invitationals",
+          "text": "<a href="https://drive.google.com/drive/folders/1MjRiSUtIDYO2kWYybjAD7Q1c7ee2Q0kE"></a>"
+        }
+      ]
+    }
+  ]
+}
