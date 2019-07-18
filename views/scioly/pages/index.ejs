@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Css and scripts -->
+<% include ../partials/header %>
+</head>
+<body>
+
+<!-- Navbar -->
+<% include ../partials/nav %>
+
+<!-- Header -->
+<header class="w3-container w3-center custom-theme" style="padding:128px 16px;">
+  <h1 class="w3-margin w3-jumbo"><%= currentPage.title %></h1>
+</header>
+
+<!-- Panels -->
+<% currentPage.panels.forEach((panel, i) => { %>
+  <div class="w3-row-padding w3-padding-64 w3-container <%= i % 2 === 0? "": "w3-light-grey" %>">
+    <div class="w3-content">
+      <% if(i % 2 === 1) { %>
+        <% include ../partials/img %>
+      <% } %>
+
+      <div class="w3-twothird">
+        <h1><%- panel.title %></h1>
+        <h5 class="w3-padding-32"><%- panel.text %></h5>
+      </div>
+
+      <% if(i % 2 === 0) { %>
+        <% include ../partials/img %>
+      <% } %>
+    </div>
+  </div>
+<% }) %>
+</body>
+</html>
