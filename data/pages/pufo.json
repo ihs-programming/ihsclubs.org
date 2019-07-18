@@ -1,0 +1,44 @@
+{
+  "theme": "#3f51b5",
+  "title": "Public Forum",
+  "pages": [ 
+    {
+      "name": "index",
+      "navName": "Home",
+      "title": "Public Forum",
+      "panels": [
+        {
+          "title": "Welcome to Public Forum",
+          "text": "Welcome to Public Forum! Public Forum is a partner event where teams of two debate about whether to adopt or reject a resolution, usually surrounding domestic or foreign policy. A new resolution is released every month.",
+          "img": {
+            "type": "icon",
+            "name": "book"
+          }
+        }
+      ]
+    },
+    {
+      "name": "resources",
+      "navName": "Resources",
+      "title": "Resources",
+      "panels": [
+        {
+          "title": "Slides",
+          "text": "You can find all of our lectures on <a href=https://drive.google.com/open?id=1AYV86QNJhMko4MH7ALM9u3uaA5rP1kXz>Google Drive</a>",
+          "img": {
+            "type": "icon",
+            "name": "slideshare"
+          }
+        },
+        {
+          "title": "Sample Cases",
+          "text": "Sample cases from last year can be found on <a href=https://drive.google.com/open?id=1TMKQuoS4-5gt15pr9HK4RLSJQsM3vTaW>Google Drive as well</a>",
+          "img": {
+            "type": "icon",
+            "name": "book"
+          }
+        }
+      ]
+    }
+  ]
+}
