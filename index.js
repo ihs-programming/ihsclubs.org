@@ -49,7 +49,11 @@ app.get("/:club/:page", (req, res, next) => {
       if(fs.existsSync(`./views/${pagePath}.ejs`)) {
         return res.render(pagePath, config);
       } else {
-        return res.render(`${club}/pages/index`, config);
+        if(fs.existsSync(`./views/${club}/pages/index.ejs`)) {
+          return res.render(`${club}/pages/index`, config);
+        } else {
+          return res.render(`default/pages/index`, config);
+        }
       }
     }
   }
