@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
-const path = require("path");
+const autoprefixer = require('express-autoprefixer');
+const lessMiddleware = require('less-middleware');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -10,7 +11,11 @@ const dataPageDir = `${dataDir}/pages`;
 
 app.set("view engine", "ejs");
 app.set("view cache", "true");
-app.use(express.static(path.join(__dirname, "static")));
+
+const staticPath = __dirname + '/static';
+app.use(lessMiddleware(staticPath));
+app.use(autoprefixer({browsers: ["last 3 versions", "> 1%"], cascade: false}));
+app.use(express.static(staticPath));
 
 const validate = str => str.match(/^[0-9a-zA-Z-_]+$/);
 
