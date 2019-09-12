@@ -9,7 +9,7 @@
       "panels": [
         {
           "title": "Welcome to Programming Club",
-          "text": "Welcome to Interlake Programming Club! We meet once a week after school on Thursdays in the APCS room. Our objective is to practice and build programming skills. We compete in local contests such as MIHS, and host our own programming competition as well.",
+          "text": "Welcome to Interlake Programming Club! We meet once a week after school on Thursdays <a href=\"/imgs/programming/map.jpg\">in the APCS room</a>. Our objective is to practice and build programming skills. We compete in local contests such as MIHS, and host our own programming competition as well.",
           "img": {
             "type": "icon",
             "name": "code"

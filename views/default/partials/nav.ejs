@@ -10,7 +10,7 @@
     ></a>
     <% pages.forEach(page => { %>
       <a href="<%= page.name %>" class="w3-bar-item w3-button w3-padding-large <%= page === currentPage? "w3-white": "w3-hover-white" %> <%= page.name === "index"? "": "w3-hide-small" %>"
-        ><%= page.navName %></a
+        style="transition-duration: 200ms;"><%= page.navName %></a
       >
     <% }); %>
   </div>
