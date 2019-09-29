@@ -9,7 +9,11 @@
       "panels": [
         {
           "title": "Welcome to Interlake Scioly!",
-          "text": "We compete in science events such as Chemistry Lab or Anatomy and Physiology as well as engineering events such as Mousetrap Vehicle."
+          "text": "We compete in science and engineering events at the local, regional, state, and national levels."
+        },
+        {
+          "title": "Event Category: Life, Personal & Social Science",
+          "text": "Anatomy and Physiology, Designer Genes, Disease Detectives, Ornithology, Water Quality"
         }
       ]
     },
