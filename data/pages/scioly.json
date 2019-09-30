@@ -38,29 +38,12 @@
       "navName": "Announcements",
       "title": "Announcements",
       "panels": [
-
-      ]
-    },
-    {
-      "name": "results",
-      "navName": "Competition Results",
-      "title": "Competition Results",
-      "panels": [
         {
-          "title": "Aviation 2019"
+          "title": "09/26/19: First Meeting!",
+          "text": "The first Scioly meeting this year will be Monday, September 30 from 3:30-4:00 in room 1708. To dispel any misinformation that has been floating around: We will be meeting on Mondays throughout the year. We will always announce in advance if there will be a meeting on any given week. Generally, we don’t default to meeting every single week. We’re looking forward to a fantastic year! See you at the information meeting!!!"
         }
       ]
     },
-    {
-      "name": "practice_tests",
-      "navName": "Practice Tests",
-      "title": "Practice Tests",
-      "panels": [
-        {
-          "title": "Golden Gate Invitationals",
-          "text": "<a href=https://drive.google.com/drive/folders/1MjRiSUtIDYO2kWYybjAD7Q1c7ee2Q0kE>Tests</a>"
-        }
-      ]
-    }
+    
   ]
 }
