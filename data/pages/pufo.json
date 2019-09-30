@@ -24,7 +24,7 @@
       "panels": [
         {
           "title": "Slides",
-          "text": "You can find all of our lectures on <a href=https://drive.google.com/open?id=1AYV86QNJhMko4MH7ALM9u3uaA5rP1kXz>Google Drive</a>",
+          "text": "You can find all of both our <a href=https://drive.google.com/open?id=1AYV86QNJhMko4MH7ALM9u3uaA5rP1kXz>novice lectures</a> and <a href=https://drive.google.com/open?id=1DwqU-4TCWZ_GwP6iAdkNYPGeyIbcJThN>varsity lectures</a> on Google Drive.",
           "img": {
             "type": "icon",
             "name": "slideshare"

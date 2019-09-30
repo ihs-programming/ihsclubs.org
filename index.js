@@ -65,4 +65,7 @@ app.get("/:club/:page", (req, res, next) => {
   next();
 });
 
+app.get("/pufo/slack", (req, res) => res.redirect("https://join.slack.com/t/interlakepublicforum/shared_invite/enQtNzYwNjE3OTA3NTQzLTYwMzQwYmUyMjQzOGE5ZmNmY2M1ZTEyMzkxNWYyOGJmMTJjODI4OGRjMDM3NjhmOTRiNGNlYWU1NDhjNjM0YmE"))
+app.get("/programming/survey", (req, res) => res.redirect("https://docs.google.com/forms/d/e/1FAIpQLSfThrMiewKkjwNQI3BTZUU73LkIbVGtkemlMiHn0GltymPjeA/viewform"))
+
 app.listen(PORT, () => console.log(`Started server at port ${PORT}`));
