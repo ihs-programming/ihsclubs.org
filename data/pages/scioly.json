@@ -9,11 +9,11 @@
       "panels": [
         {
           "title": "Welcome to Interlake Scioly!",
-          "text": "We compete in science and engineering events at the local, regional, state, and national levels! See <a href=https://soinc.org target="_blank">soinc.org</a> and <a href=https://scioly.org>scioly.org</a> for more information. We meet on Mondays from 3:30-4:00 in room 1708. Come join us :)"
+          "text": "We compete in science and engineering events at the local, regional, state, and national levels! See <a href=https://soinc.org>soinc.org</a> and <a href=https://scioly.org>scioly.org</a> for more information. We meet on Mondays from 3:30-4:00 in room 1708. Come join us :)"
         },
         {
           "title": "Contact Us",
-          "text": "Join our Facebook group at <a href=https://www.facebook.com/groups/Interlakescienceolympiad/ target="_blank">Interlake Science Olympiad</a>. If you have questions or concerns, don't hesitate to reach out to us at <a href=\"mailto: interlakescienceolympiad@gmail.com\">interlakescienceolympiad@gmail.com</a>."
+          "text": "Join our Facebook group at <a target="_blank" rel="noopener noreferrer" href=https://www.facebook.com/groups/Interlakescienceolympiad/>Interlake Science Olympiad</a>. If you have questions or concerns, don't hesitate to reach out to us at <a href=\"mailto: interlakescienceolympiad@gmail.com\">interlakescienceolympiad@gmail.com</a>."
         },
         {
           "title": "Event Category: Life, Personal & Social Science",
