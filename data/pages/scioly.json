@@ -17,7 +17,7 @@
         },
         {
           "title": "Event Category: Life, Personal & Social Science",
-          "text": "<a href=https://scioly.org/wiki/index.php/Anatomy_and_Physiology>Anatomy and Physiology</a>, Designer Genes, Disease Detectives, Ornithology, Water Quality"
+          "text": "<a href=https://scioly.org/wiki/index.php/Anatomy_and_Physiology>Anatomy and Physiology</a>, <a href=https://scioly.org/wiki/index.php/Designer_Genes>Designer Genes</a>, <a href=https://scioly.org/wiki/index.php/Disease_Detectives>Disease Detectives</a>, <a href=https://scioly.org/wiki/index.php/Ornithology>Ornithology</a>, <a href=https://scioly.org/wiki/index.php/Water_Quality>Water Quality</a>"
         },
         {
           "title": "Event Category: Earth and Space Science",
@@ -25,15 +25,15 @@
         },
         {
           "title": "Event Category: Physical Science & Chemistry",
-          "text": "Chem Lab, Circuit Lab, Forensics, Thermodynamics, Protein Modeling, Sounds of Music"
+          "text": "<a href=https://scioly.org/wiki/index.php/Chem_Lab>Chem Lab</a>, <a href=https://scioly.org/wiki/index.php/Circuit_Lab>Circuit Lab</a>, <a href=https://scioly.org/wiki/index.php/Forensics>Forensics</a>, <a href=https://scioly.org/wiki/index.php/Thermodynamics>Thermodynamics</a>, <a href=https://scioly.org/wiki/index.php/Protein_Modeling>Protein Modeling</a>, <a href=https://scioly.org/wiki/index.php/Sounds_of_Musics>Sounds of Music</a>"
         },
         {
           "title": "Event Category: Technology & Engineering",
-          "text": "Boomilever, Wright Stuff"
+          "text": "<a href=https://scioly.org/wiki/index.php/Boomilever>Boomilever</a>, <a href=https://scioly.org/wiki/index.php/Wright_Stuff>Wright Stuff</a>"
         },
         {
           "title": "Inquiry & Nature of Science",
-          "text": "Codebusters, Experimental Design, Fermi Questions, Write It Do It"
+          "text": "<a href=https://scioly.org/wiki/index.php/Codebusters>Codebusters</a>, <a href=https://scioly.org/wiki/index.php/Experimental_Design>Experimental Design</a>, <a href=https://scioly.org/wiki/index.php/Fermi_Questions>Fermi Questions</a>, <a href=https://scioly.org/wiki/index.php/Write_It_Do_It>Write It Do It</a>"
         }
       ]
     },
