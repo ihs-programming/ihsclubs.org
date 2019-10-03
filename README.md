@@ -58,7 +58,7 @@ Each page has two properties.
 
 
 ### Subpages
-Subpagse are configured through the config files found in `/data/pages/${name}.json`. 
+Subpages are configured through the config files found in `/data/pages/${name}.json`. 
 
 | Variable  | Meaning |
 | ------------- | ------------- |
