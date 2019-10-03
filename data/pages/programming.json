@@ -32,7 +32,7 @@
         },
         {
           "title": "How do I prepare?",
-          "text": "The problems in IPC are modeled off of other popular programming contests such as <a href=https://usaco.org>USACO</a> and <a href=https://codeforces.com>CodeForces</a>. As always, the best way to improve is by practicing old problems. ",
+          "text": "The problems in IPC are modeled off of other popular programming contests such as <a href=https://usaco.org>USACO</a> and <a href=https://codeforces.com>CodeForces</a>. As always, the best way to improve is by practicing old problems. You can also go to the <a href=https://train.usaco.org/usacogate>USACO Training Program</a> as well as <a href=https://leetcode.com>LeetCode</a> for training with all sorts of programming problems.",
           "img": {
             "type": "icon",
             "name": "users"
