@@ -12,5 +12,12 @@
       "title": "Science Olympiad",
       "path": "scioly"
     }
-  ]
+  ],
+  "redirects": {
+    "greedy0": "https://codeforces.com/problemset/problem/1201/C",
+    "greedy0sol": "https://codeforces.com/contest/1201/submission/62755232",
+    "greedy1": "https://codeforces.com/problemset/problem/1230/B",
+    "survey": "https://forms.gle/vyu1QMQZFbBFZF7f7",
+    "teamscode": "https://teamscode.com/contests/fall-2019-mihs-programming-contest/"
+  }
 }

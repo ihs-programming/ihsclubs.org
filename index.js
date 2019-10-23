@@ -25,6 +25,31 @@ app.get("/", (req, res) => {
   return res.render("index", indexConfig); 
 });
 
+const render = (res, club, page) => {
+  const configPath = `${dataPageDir}/${club}.json`;
+  if(fs.existsSync(configPath)) {
+    const config = require(configPath);
+
+    const pagePath = `${club}/pages/${page}`;
+
+    const currentPage = config.pages.find(({name}) => name === page);
+    if(currentPage !== undefined) {
+      config.currentPage = currentPage;
+      if(fs.existsSync(`./views/${pagePath}.ejs`)) {
+        res.render(pagePath, config);
+      } else {
+        if(fs.existsSync(`./views/${club}/pages/index.ejs`)) {
+          res.render(`${club}/pages/index`, config);
+        } else {
+          res.render(`default/pages/index`, config);
+        }
+      }
+      return true;
+    }
+  }
+  return false;
+}
+
 app.get("/:club", (req, res, next) => {
   const {club} = req.params;
   
@@ -32,8 +57,9 @@ app.get("/:club", (req, res, next) => {
 
   const configPath = `${dataPageDir}/${club}.json`;
   if(fs.existsSync(configPath)) {
-    res.redirect(`/${req.params.club}/index`);
+    if(render(res, club, "index")) return;
   }
+
   next();
 });
 
@@ -42,30 +68,15 @@ app.get("/:club/:page", (req, res, next) => {
   const {club, page} = req.params;
   
   if(!validate(club) || !validate(page)) return next();
+  if(page === "index") return res.redirect(`/${club}/`);
 
-  const configPath = `${dataPageDir}/${club}.json`;
-  if(fs.existsSync(configPath)) {
-    const config = require(configPath);
-    const pagePath = `${club}/pages/${page}`;
-
-    const currentPage = config.pages.find(({name}) => name === page);
-    if(currentPage !== undefined) {
-      config.currentPage = currentPage;
-      if(fs.existsSync(`./views/${pagePath}.ejs`)) {
-        return res.render(pagePath, config);
-      } else {
-        if(fs.existsSync(`./views/${club}/pages/index.ejs`)) {
-          return res.render(`${club}/pages/index`, config);
-        } else {
-          return res.render(`default/pages/index`, config);
-        }
-      }
-    }
-  }
-  next();
+  if(!render(res, club, page)) next();
 });
 
-app.get("/pufo/slack", (req, res) => res.redirect("https://join.slack.com/t/interlakepublicforum/shared_invite/enQtNzYwNjE3OTA3NTQzLTYwMzQwYmUyMjQzOGE5ZmNmY2M1ZTEyMzkxNWYyOGJmMTJjODI4OGRjMDM3NjhmOTRiNGNlYWU1NDhjNjM0YmE"))
-app.get("/programming/survey", (req, res) => res.redirect("https://docs.google.com/forms/d/e/1FAIpQLSfThrMiewKkjwNQI3BTZUU73LkIbVGtkemlMiHn0GltymPjeA/viewform"))
+const redirects = indexConfig.redirects;
+app.get("/redirect/:page", (req, res) => {
+  if(Object.keys(redirects).includes(req.params["page"])) return res.redirect(redirects[req.params["page"]]);
+  return res.send("Invalid url");
+});
 
 app.listen(PORT, () => console.log(`Started server at port ${PORT}`));
