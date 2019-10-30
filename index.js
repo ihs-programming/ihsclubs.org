@@ -51,7 +51,7 @@ const render = (res, club, page) => {
 }
 
 app.get("/:club", (req, res, next) => {
-  if(!req.url.endsWith("/")) res.redirect(req.url + "/");
+  if(!req.url.endsWith("/")) return res.redirect(req.url + "/");
   const {club} = req.params;
   
   if(!validate(club)) return next();

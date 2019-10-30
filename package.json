@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch views index.js",
+    "dev": "nodemon --watch views --ext js,ejs,less index.js",
     "start": "node index.js",
     "build": "echo none"
   },
