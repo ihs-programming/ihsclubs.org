@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/default/external/markdown/style.css">
+    <title><%= markdownFile.meta.title %></title>
+  </head>
+  <body class="wrapper">
+    <div class="markdown-body">
+      <%- markdownFile.parseContent() %>
+    </div>
+  </body>
+</html>

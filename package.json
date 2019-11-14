@@ -23,7 +23,8 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "express-autoprefixer": "^5.4.0",
-    "less-middleware": "^3.1.0"
+    "less-middleware": "^3.1.0",
+    "markdown-serve": "^0.8.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

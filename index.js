@@ -1,4 +1,5 @@
 const express = require("express");
+const mds = require("markdown-serve");
 const fs = require("fs");
 const autoprefixer = require('express-autoprefixer');
 const lessMiddleware = require('less-middleware');
@@ -79,5 +80,10 @@ app.get("/redirect/:page", (req, res) => {
   if(Object.keys(redirects).includes(req.params["page"])) return res.redirect(redirects[req.params["page"]]);
   return res.send("Invalid url");
 });
+
+app.use(mds.middleware({ 
+  rootDirectory: staticPath,
+  view: 'markdown'
+}));
 
 app.listen(PORT, () => console.log(`Started server at port ${PORT}`));
