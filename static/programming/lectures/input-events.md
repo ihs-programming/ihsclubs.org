@@ -114,4 +114,7 @@ Sometimes, it may be useful to look at [the full documentation for KeyEvent](htt
 - Make it add a ball anywhere whenever you press a key (1 point)
 - Make it add a ball in different places, depending on which key you press (2 points)
 - Add a controllable figure with the wasd keys (5 points)
-
+- Add upgrades to the clicker game we made in class (6 points)
+- Make the Google tRex game but with no obstacles / ducking (3 points)
+- Do it with obstacles (7 points)
+- Crash your computer (-1 points)
