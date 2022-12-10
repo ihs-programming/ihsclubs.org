@@ -21,7 +21,7 @@
   "homepage": "https://github.com/ihs-programming/ihsclubs.org#readme",
   "dependencies": {
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-autoprefixer": "^5.4.0",
     "less-middleware": "^3.1.0",
     "markdown-serve": "^0.8.0"
